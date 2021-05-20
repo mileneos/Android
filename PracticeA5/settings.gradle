@@ -1,0 +1,5 @@
+include ':camera'
+include ':audiorecord'
+include ':accelerometer'
+include ':app'
+rootProject.name = "PracticeA5"
