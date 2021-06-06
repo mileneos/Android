@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907116150059",
+    "project_id": "practicea7-57696",
+    "storage_bucket": "practicea7-57696.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907116150059:android:92f424fab062993d50196e",
+        "android_client_info": {
+          "package_name": "ru.mirea.zernov.practicea7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907116150059-km8eanepstjvf18hlt977jeeav2ijnk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA619sf35R8O9D-IsIG4Z6dIVH_VbngY6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907116150059-km8eanepstjvf18hlt977jeeav2ijnk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
