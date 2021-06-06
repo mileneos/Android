@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.zernov.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.zernov.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.zernov.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="ru.mirea.zernov.mireaproject.Calculate"
+        android:label="Калбкулятор"
+        tools:layout="@layout/calculate_frag" />
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.zernov.mireaproject.Browser"
+        android:label="Браузер"
+        tools:layout="@layout/browser_frag" />
+    <fragment
+        android:id="@+id/nav_music"
+        android:name="ru.mirea.zernov.mireaproject.Musica"
+        android:label="Музыка"
+        tools:layout="@layout/music_frag" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.zernov.mireaproject.Camera"
+        android:label="Камера"
+        tools:layout="@layout/camera_frag" />
+    <fragment
+        android:id="@+id/nav_micro"
+        android:name="ru.mirea.zernov.mireaproject.Micro"
+        android:label="Диктофон"
+        tools:layout="@layout/micro_frag" />
+    <fragment
+        android:id="@+id/nav_infosensors"
+        android:name="ru.mirea.zernov.mireaproject.InfoSensors"
+        android:label="Датчики"
+        tools:layout="@layout/infosensors_frag" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="ru.mirea.zernov.mireaproject.History"
+        android:label="История"
+        tools:layout="@layout/settings_frag" />
+</navigation>
